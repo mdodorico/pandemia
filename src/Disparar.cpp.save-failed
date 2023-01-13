@@ -1,0 +1,186 @@
+#include "Disparar.h"
+#include "Iniciar.h"
+
+Disparar::Disparar(int _dx, int _dy,int _dir, Jugador * _j, Enemigo* _e, Escenario*_M)
+{
+    dx=_dx;
+    dy=_dy;
+    dir=_dir;
+    M = _M;
+    J = _j;
+    E = _e;
+    bonus_especial = _j->bonus;
+
+    cargar_imagen_disparos();
+}
+
+int Disparar::getX(){return dx;};
+int Disparar::getY(){return dy;};
+
+void Disparar::cargar_imagen_disparos()
+{
+    bala = load_bitmap("bala1.bmp", NULL);
+    bala2 = load_bitmap("bala1.bmp", NULL);
+
+    if(!bala || !bala2)
+    {
+        allegro_message("Error al cargar la imagen");
+    }
+}
+
+void Disparar::pintar_disparo()
+{
+    masked_blit(bala, buffer ,0,0,dx,dy,width,height);
+    masked_blit(bala2, buffer ,0,0,dx,dy,width,height);
+}
+
+void Disparar::mover_disparo()
+{
+    if(bonus_especial == false){
+
+        if(dir == UP)
+        {
+            dy-=12;
+            masked_blit(bala, buffer ,0,0,dx+11,dy,width,height);
+        }
+        if(dir == RIGHT)
+        {
+            dx+=15;
+            masked_blit(bala, buffer ,0,0,dx+15,dy+11,width,height);
+        }
+        if(dir == DOWN)
+        {
+            dy+=15;
+            masked_blit(bala, buffer ,0,0,dx+13,dy+20,width,height);
+        }
+        if(dir == LEFT)
+        {
+            dx-=15;
+            masked_blit(bala, buffer ,0,0,dx+5,dy+11,width,height);
+        }
+    }
+    else if(bonus_especial == true){
+
+        if(dir == UP){
+            dy-=12;
+            masked_blit(bala, buffer ,0,0,dx+11,dy,width,height);
+            masked_blit(bala, buffer ,0,0,dx+17,dy,width,height);
+            masked_blit(bala, buffer ,0,0,dx+5,dy,width,height);
+        }
+        if(dir == RIGHT){
+            dx+=15;
+             masked_blit(bala, buffer ,0,0,dx+10,dy+11,width,height);
+             masked_blit(bala, buffer ,0,0,dx+12,dy+11,width,height);
+             masked_blit(bala, buffer ,0,0,dx+12,dy+11,width,height);
+        }
+        if(dir == DOWN){
+            dy+=15;
+            masked_blit(bala, buffer ,0,0,dx+13,dy+25,width,height);
+            masked_blit(bala, buffer ,0,0,dx+13,dy+15,width,height);
+            masked_blit(bala, buffer ,0,0,dx+13,dy+17,width,height);
+        }
+        if(dir == LEFT){
+            dx-=15;
+            masked_blit(bala, buffer ,0,0,dx+5,dy+18,width,height);
+            masked_blit(bala, buffer ,0,0,dx+5,dy+10,width,height);
+            masked_blit(bala, buffer ,0,0,dx+5,dy+05,width,height);
+        }
+            dy-=12;
+    }
+}
+
+bool Disparar::colision_pared(){
+
+        if (dir == UP){
+            if((M->mapa[(dy/10)][(dx/10)] != '.')||(M->mapa[(dy/10)][(dx+10)/10] != '.')||(M->mapa[(dy/10)][(dx+20)/10] != '.')||(M->mapa[(dy/10)][(dx+3)/10] != '.')){
+
+                    if((M->mapa[(dy/10)][((dx+10)/10)] == '0'))
+                    {
+                            J->bonus=true;
+                            M->mapa[(dy/10)][((dx+10)/10)] = '.';
+                    }
+
+                    if((M->mapa[(dy/10)][((dx+10)/10)] == 'V'))
+                    {
+                        borrar_muro();
+                    }
+                return true;
+            }
+        }
+        else if(dir == DOWN){
+            if((M->mapa[(dy/10)+3][(dx/10)] != '.')||(M->mapa[(dy/10)+3][(dx+10)/10] != '.')||(M->mapa[(dy/10)+3][(dx+20)/10] != '.')||(M->mapa[(dy/10)+3][(dx+28)/10] != '.')){
+
+                   if((M->mapa[(dy/10)][((dx+10)/10)] == '0'))
+                    {
+                            J->bonus=true;
+                            M->mapa[(dy/10)][((dx+10)/10)] = '.';
+                    }
+                    if((M->mapa[(dy/10)][((dx+10)/10)] == 'V'))
+                    {
+                        borrar_muro();
+                    }
+                return true;
+            }
+        }
+        else  if(dir == LEFT){
+            if((M->mapa[(dy/10)][(dx/10)] != '.')||(M->mapa[(dy+10)/10][dx/10] != '.')||(M->mapa[(dy+20)/10][dx/10] != '.')||(M->mapa[(dy+28)/10][dx/10] != '.'))
+                {
+                    if((M->mapa[(dy/10)][((dx+10)/10)] == '0'))
+                    {
+                            J->bonus=true;
+                            M->mapa[(dy/10)][((dx+10)/10)] = '.';
+                    }
+                    if((M->mapa[(dy/10)][((dx+10)/10)] == 'V'))
+                    {
+                        borrar_muro();
+                    }
+                    return true;
+                }
+        }
+        else if(dir == RIGHT){
+            if((M->mapa[(dy/10)][(dx/10)+3] !='.')||(M->mapa[(dy+10)/10][(dx/10)+3] !='.')||(M->mapa[(dy+20)/10][(dx/10)+3] !='.')||(M->mapa[(dy+28)/10][(dx/10)+3] !='.'))
+                {
+                    if((M->mapa[(dy/10)][((dx+10)/10)] == '0'))
+                    {
+                            J->bonus=true;
+                            M->mapa[(dy/10)][((dx+10)/10)] = '.';
+                    }
+                    if((M->mapa[(dy/10)][((dx+10)/10)] == 'V'))
+                    {
+                        borrar_muro();
+                    }
+                return true;
+                }
+        }
+    return false;
+}
+
+void Disparar::borrar_muro(){
+
+    M->mapa[(dy/10)][(dx+10)/10] = '.';
+}
+
+bool Disparar::colision_enemigo(Enemigo *E){
+
+    if( (E->getDx() < dx+10 ) &&( dx < E->getDx()+30 ) && (E->getDy() < dy + 10) && (dy < E->getDy()+30) )
+    {
+        if(J->getPlayer() == 2 ){
+                E->setDx(200);
+                E->setDy(30);
+                E->direccion_aleatoria();
+        }
+        else{
+                E->setDx(280);
+                E->setDy(460);
+        }
+
+        return true;
+    }
+    return false;
+}
+
+Disparar::~Disparar()
+{
+   destroy_bitmap(bala);
+   destroy_bitmap(bala2);
+}

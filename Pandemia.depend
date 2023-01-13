@@ -1,0 +1,392 @@
+# depslib dependency file v1.0
+1610892878 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\ideas para juego\pandemic war v2\src\disparar.cpp
+	"Disparar.h"
+
+1610892140 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\ideas para juego\pandemic war v2\include\disparar.h
+	<allegro.h>
+	<Jugador.h>
+	<Enemigo.h>
+	<Escenario.h>
+
+1610891075 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\ideas para juego\pandemic war v2\include\jugador.h
+	<Escenario.h>
+	<time.h>
+	<allegro.h>
+
+1610891466 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\ideas para juego\pandemic war v2\include\escenario.h
+	<allegro.h>
+
+1610891624 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\ideas para juego\pandemic war v2\include\enemigo.h
+	<Escenario.h>
+	<time.h>
+	<allegro.h>
+
+1610808942 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\ideas para juego\pandemic war v2\src\iniciar.cpp
+	"Iniciar.h"
+	<allegro.h>
+
+1610808959 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\ideas para juego\pandemic war v2\include\iniciar.h
+
+1610892593 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\ideas para juego\pandemic war v2\src\enemigo.cpp
+	"Enemigo.h"
+
+1610892931 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\ideas para juego\pandemic war v2\src\menu.cpp
+	"Menu.h"
+
+1610892526 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\ideas para juego\pandemic war v2\include\menu.h
+	<allegro.h>
+
+1610892539 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\ideas para juego\pandemic war v2\src\jugador.cpp
+	"Jugador.h"
+	<time.h>
+
+1610892565 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\ideas para juego\pandemic war v2\src\escenario.cpp
+	"Escenario.h"
+	<iostream>
+	<stdlib.h>
+	<fstream>
+	<allegro.h>
+
+1610892583 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\ideas para juego\pandemic war v2\main.cpp
+	<iostream>
+	<stdlib.h>
+	<fstream>
+	<list>
+	<allegro.h>
+	"Iniciar.h"
+	"Jugador.h"
+	"Enemigo.h"
+	"Disparar.h"
+	"Escenario.h"
+	"Menu.h"
+
+1611584047 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemic war v2\src\disparar.cpp
+	"Disparar.h"
+
+1611586213 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemic war v2\include\disparar.h
+	<allegro.h>
+	<Jugador.h>
+	<Enemigo.h>
+	<Escenario.h>
+
+1611586390 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemic war v2\include\jugador.h
+	<Escenario.h>
+	<allegro.h>
+
+1611586285 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemic war v2\include\escenario.h
+	<allegro.h>
+
+1611586260 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemic war v2\include\enemigo.h
+	<Escenario.h>
+	<allegro.h>
+
+1611584954 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemic war v2\src\enemigo.cpp
+	"Enemigo.h"
+
+1611584065 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemic war v2\src\escenario.cpp
+	"Escenario.h"
+	<iostream>
+	<stdlib.h>
+	<fstream>
+	<allegro.h>
+
+1611585667 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemic war v2\src\jugador.cpp
+	"Jugador.h"
+
+1611491961 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemic war v2\src\menu.cpp
+	"Menu.h"
+
+1611586417 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemic war v2\include\menu.h
+	<allegro.h>
+
+1611585955 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemic war v2\main.cpp
+	<iostream>
+	<stdlib.h>
+	<fstream>
+	<list>
+	<allegro.h>
+	"Iniciar.h"
+	"Jugador.h"
+	"Enemigo.h"
+	"Disparar.h"
+	"Escenario.h"
+	"Menu.h"
+	"Sonido.h"
+
+1611405618 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemic war v2\include\iniciar.h
+	<allegro.h>
+
+1611492346 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemic war v2\include\sonido.h
+	<allegro.h>
+
+1611491871 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemic war v2\src\iniciar.cpp
+	"Iniciar.h"
+	<allegro.h>
+
+1611492722 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemic war v2\src\sonido.cpp
+	"Sonido.h"
+
+1612793554 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia\main.cpp
+	<iostream>
+	<stdlib.h>
+	<fstream>
+	<list>
+	<allegro.h>
+	"Iniciar.h"
+	"Jugador.h"
+	"Enemigo.h"
+	"Disparar.h"
+	"Escenario.h"
+	"Menu.h"
+	"Sonido.h"
+
+1611405618 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia\include\iniciar.h
+	<allegro.h>
+
+1612356615 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia\include\jugador.h
+	<Escenario.h>
+	<allegro.h>
+
+1612823314 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia\include\escenario.h
+	<allegro.h>
+
+1611586260 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia\include\enemigo.h
+	<Escenario.h>
+	<allegro.h>
+
+1612793547 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia\include\disparar.h
+	<allegro.h>
+	<Jugador.h>
+	<Enemigo.h>
+	<Escenario.h>
+
+1611586417 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia\include\menu.h
+	<allegro.h>
+
+1612194483 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia\include\sonido.h
+	<allegro.h>
+
+1612823149 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia\src\disparar.cpp
+	"Disparar.h"
+
+1611584954 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia\src\enemigo.cpp
+	"Enemigo.h"
+
+1612823305 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia\src\escenario.cpp
+	"Escenario.h"
+	<iostream>
+	<stdlib.h>
+	<fstream>
+	<allegro.h>
+
+1612181106 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia\src\jugador.cpp
+	"Jugador.h"
+
+1612194969 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia\src\menu.cpp
+	"Menu.h"
+
+1612194479 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia\src\sonido.cpp
+	"Sonido.h"
+
+1611586496 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia\src\iniciar.cpp
+	"Iniciar.h"
+	<allegro.h>
+
+1614600669 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\pandemia\main.cpp
+	<iostream>
+	<stdlib.h>
+	<fstream>
+	<list>
+	<allegro.h>
+	"Iniciar.h"
+	"Jugador.h"
+	"Enemigo.h"
+	"Disparar.h"
+	"Escenario.h"
+	"Menu.h"
+	"Sonido.h"
+
+1614515010 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\pandemia\include\iniciar.h
+	<allegro.h>
+
+1614515022 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\pandemia\include\jugador.h
+	<allegro.h>
+	"Escenario.h"
+
+1614514434 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\pandemia\include\escenario.h
+	<allegro.h>
+
+1614514946 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\pandemia\include\enemigo.h
+	<allegro.h>
+	"Escenario.h"
+
+1614514999 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\pandemia\include\disparar.h
+	<allegro.h>
+	"Jugador.h"
+	"Enemigo.h"
+	"Escenario.h"
+
+1614515028 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\pandemia\include\menu.h
+	<allegro.h>
+
+1614603329 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\pandemia\include\sonido.h
+	<allegro.h>
+
+1614514261 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\pandemia\src\disparar.cpp
+	"Disparar.h"
+
+1611584954 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\pandemia\src\enemigo.cpp
+	"Enemigo.h"
+
+1614514433 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\pandemia\src\escenario.cpp
+	"Escenario.h"
+	<iostream>
+	<stdlib.h>
+	<fstream>
+	<allegro.h>
+
+1614516382 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\pandemia\src\iniciar.cpp
+	"Iniciar.h"
+	<allegro.h>
+
+1614514273 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\pandemia\src\jugador.cpp
+	"Jugador.h"
+
+1614603549 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\pandemia\src\menu.cpp
+	"Menu.h"
+
+1614603323 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\pandemia\src\sonido.cpp
+	"Sonido.h"
+
+1614514261 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia - examen final 02-03-2021\src\disparar.cpp
+	"Disparar.h"
+
+1614514999 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia - examen final 02-03-2021\include\disparar.h
+	<allegro.h>
+	"Jugador.h"
+	"Enemigo.h"
+	"Escenario.h"
+
+1614515022 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia - examen final 02-03-2021\include\jugador.h
+	<allegro.h>
+	"Escenario.h"
+
+1614514434 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia - examen final 02-03-2021\include\escenario.h
+	<allegro.h>
+
+1614514946 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia - examen final 02-03-2021\include\enemigo.h
+	<allegro.h>
+	"Escenario.h"
+
+1614603807 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia - examen final 02-03-2021\src\enemigo.cpp
+	"Enemigo.h"
+
+1614514433 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia - examen final 02-03-2021\src\escenario.cpp
+	"Escenario.h"
+	<iostream>
+	<stdlib.h>
+	<fstream>
+	<allegro.h>
+
+1614516382 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia - examen final 02-03-2021\src\iniciar.cpp
+	"Iniciar.h"
+	<allegro.h>
+
+1614515010 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia - examen final 02-03-2021\include\iniciar.h
+	<allegro.h>
+
+1614514273 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia - examen final 02-03-2021\src\jugador.cpp
+	"Jugador.h"
+
+1614691048 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia - examen final 02-03-2021\src\menu.cpp
+	"Menu.h"
+
+1614515028 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia - examen final 02-03-2021\include\menu.h
+	<allegro.h>
+
+1614691008 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia - examen final 02-03-2021\src\sonido.cpp
+	"Sonido.h"
+
+1614603329 c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia - examen final 02-03-2021\include\sonido.h
+	<allegro.h>
+
+1614721286 source:c:\users\maria\desktop\marian\facu\programación (2019)\programación ii\final\pandemia - examen final 02-03-2021\main.cpp
+	<iostream>
+	<stdlib.h>
+	<fstream>
+	<list>
+	<allegro.h>
+	"Iniciar.h"
+	"Jugador.h"
+	"Enemigo.h"
+	"Disparar.h"
+	"Escenario.h"
+	"Menu.h"
+	"Sonido.h"
+
+1614721288 source:c:\users\mariana\desktop\marian\facu\programación (2019-2022)\programación ii\final (02-03-2021)\pandemia - examen final 02-03-2021\main.cpp
+	<iostream>
+	<stdlib.h>
+	<fstream>
+	<list>
+	<allegro.h>
+	"Iniciar.h"
+	"Jugador.h"
+	"Enemigo.h"
+	"Disparar.h"
+	"Escenario.h"
+	"Menu.h"
+	"Sonido.h"
+
+1614515012 c:\users\mariana\desktop\marian\facu\programación (2019-2022)\programación ii\final (02-03-2021)\pandemia - examen final 02-03-2021\include\iniciar.h
+	<allegro.h>
+
+1614515024 c:\users\mariana\desktop\marian\facu\programación (2019-2022)\programación ii\final (02-03-2021)\pandemia - examen final 02-03-2021\include\jugador.h
+	<allegro.h>
+	"Escenario.h"
+
+1614514436 c:\users\mariana\desktop\marian\facu\programación (2019-2022)\programación ii\final (02-03-2021)\pandemia - examen final 02-03-2021\include\escenario.h
+	<allegro.h>
+
+1614514948 c:\users\mariana\desktop\marian\facu\programación (2019-2022)\programación ii\final (02-03-2021)\pandemia - examen final 02-03-2021\include\enemigo.h
+	<allegro.h>
+	"Escenario.h"
+
+1614515000 c:\users\mariana\desktop\marian\facu\programación (2019-2022)\programación ii\final (02-03-2021)\pandemia - examen final 02-03-2021\include\disparar.h
+	<allegro.h>
+	"Jugador.h"
+	"Enemigo.h"
+	"Escenario.h"
+
+1614515030 c:\users\mariana\desktop\marian\facu\programación (2019-2022)\programación ii\final (02-03-2021)\pandemia - examen final 02-03-2021\include\menu.h
+	<allegro.h>
+
+1614603330 c:\users\mariana\desktop\marian\facu\programación (2019-2022)\programación ii\final (02-03-2021)\pandemia - examen final 02-03-2021\include\sonido.h
+	<allegro.h>
+
+1614514262 source:c:\users\mariana\desktop\marian\facu\programación (2019-2022)\programación ii\final (02-03-2021)\pandemia - examen final 02-03-2021\src\disparar.cpp
+	"Disparar.h"
+
+1614603808 source:c:\users\mariana\desktop\marian\facu\programación (2019-2022)\programación ii\final (02-03-2021)\pandemia - examen final 02-03-2021\src\enemigo.cpp
+	"Enemigo.h"
+
+1614514434 source:c:\users\mariana\desktop\marian\facu\programación (2019-2022)\programación ii\final (02-03-2021)\pandemia - examen final 02-03-2021\src\escenario.cpp
+	"Escenario.h"
+	<iostream>
+	<stdlib.h>
+	<fstream>
+	<allegro.h>
+
+1614516384 source:c:\users\mariana\desktop\marian\facu\programación (2019-2022)\programación ii\final (02-03-2021)\pandemia - examen final 02-03-2021\src\iniciar.cpp
+	"Iniciar.h"
+	<allegro.h>
+
+1614514274 source:c:\users\mariana\desktop\marian\facu\programación (2019-2022)\programación ii\final (02-03-2021)\pandemia - examen final 02-03-2021\src\jugador.cpp
+	"Jugador.h"
+
+1614691050 source:c:\users\mariana\desktop\marian\facu\programación (2019-2022)\programación ii\final (02-03-2021)\pandemia - examen final 02-03-2021\src\menu.cpp
+	"Menu.h"
+
+1614691010 source:c:\users\mariana\desktop\marian\facu\programación (2019-2022)\programación ii\final (02-03-2021)\pandemia - examen final 02-03-2021\src\sonido.cpp
+	"Sonido.h"
+

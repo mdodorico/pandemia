@@ -1,0 +1,2 @@
+*.exe filter=lfs diff=lfs merge=lfs -text
+codeblocks-13.12mingw-setup-TDM-GCC-481.exe filter=lfs diff=lfs merge=lfs -text
